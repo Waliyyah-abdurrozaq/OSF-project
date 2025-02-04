@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>invoice</title>
+    <link rel="stylesheet" href="./fontawesome/css/all.min.css">
+    <style>
+        *{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 16px;
+            color: #000;
+        }
+        .navbar{
+            display: inline;
+            font-weight: bolder;
+            margin: 20px;
+        }
+        .navlink{
+            text-decoration: none;
+        }
+        .navlink:hover{
+            text-decoration: underline;
+            color: #ff4500;
+        }
+        th{
+            text-align: left;
+            background-color: #d3d3d3;
+            width: 30%;
+            
+        }
+        table, th,  td {
+        border: 1px solid #fff;
+        height: 30px;
+        line-height: 1.8;
+        
+        }
+        .banner{
+            background-image: url(./bg-2.jpg); 
+            background-position: center;
+            display: flex;
+        }
+        .bannerleft{
+            display: inline; 
+            background-color: rgba(255, 69, 0, 0.6); 
+            padding: 20px; 
+            width: 30%;
+            clip-path: polygon(0 0%, 60% 0, 100% 100%, 0 100%);
+        }
+        .bannerright{
+           width: 50%;
+           text-align: center;
+           margin-top: 20px;
+           
+        }
+        mark{
+            background-color: #ff3500;
+            color: #fff;
+            
+        }
+        .bannerlist{
+            list-style-type: none; 
+            color: #fff;
+            font-weight: bolder;
+        }
+        .bannertabledata, .bannertable{
+            padding: 10px;
+            border-collapse: collapse;
+            border: none;
+        }
+        P{
+            line-height: 1.8;
+        }
+        .list{
+            line-height:1.8;
+        }
+       
+    </style>
+</head>
+<body style="margin: 10%; border: 1px solid #000; padding: 25px;">
+    <br>
+    <center>
+        <img src="assignment4-logo.png" alt="logo" width="10%">
+    </center>
+    <hr>
+        <ul style="text-align: center;">
+            <li class="navbar"> <a class="navlink" href="#">Foodstuffs</a> </li>
+            <li class="navbar"> <a class="navlink" href="#">Oil & Spices</a> </li>
+            <li class="navbar"> <a class="navlink" href="#">Fruits</a> </li>
+            <li class="navbar"> <a class="navlink" href="#">Packaged Foods</a> </li>
+        </ul>
+    <hr>
+    <p>Hi, Faith</p>
+    <p>Thank you for shopping on Market Centa! Your order 353143285 has been successfully confirmed.  </p>
+    <p>It will be packaged and shipped as soon as possible. Once the item(s) is out of delivery or available for pick-up you will receive a notification from us.</p>
+    <p>Thank you for shopping on Market Centa</p>
+    <p><strong>Please note:</strong></p>
+    <ul>
+        <li class="list">
+            If you ordered for multiple items, they may be available at the pick up station on different days. This is because they are sold by different sellers on our platform and we want to make each item available to you as soon as possible after receiving it.
+        </li>
+    </ul>
+    <br>
+    <table width="100%" style="border: 1px solid #838383;"> 
+        <tr>
+            <th>Estimated delivery date(s)</th>
+            <th>Delivery Method</th>
+        </tr>
+        <tr>
+            <td>Check our <a style="color: blue; text-decoration: none;" href="#">delivery information page</a></td>
+            <td>Collect from our Pickup</td>
+        </tr>
+        <tr>
+            <th>Recepient Details</th>
+            <th>Delivery Address</th>
+        </tr>
+        <tr>
+            <td>Faith Oludare</a></td>
+            <td>Ijebu Ode Pickup Station - Peter's Place,
+                Directly Opposite Ibadan Garage Motor
+                Park, Ijebu-Ode, Ogun State 
+            </td>
+        </tr>
+    </table>    
+    <p><strong>You ordered for:</strong></p>
+    <table style="border: 1px solid #838383; overflow-x:auto;">
+        <tr>
+            <th style="width: 20%;"></th>
+            <th style="width: 40%;">ITEM</th>
+            <th style="width: 20%;">QUALITY</th>
+            <th style="width: 20%;">PRICE</th>
+        </tr>
+        <tr > 
+            <td><img src="./palmers body lotion 500ml.jpg" width="40%" alt="product"></td>
+            <td>Cocoa Butter By Palmers Body Lotion</td>
+            <td>1</td>
+            <td>₦ 4,000</td>
+        </tr>
+    </table>
+    <br>
+    <table style="border: 1px solid #838383; width: 100%;">
+        <tr>
+            <th style="width: 50%;">SHIPPING COST</th>
+            <td style="width: 50%; text-align: right;">₦ 510</td>
+        </tr>
+        <tr>
+            <th style="width: 50%;">SHIPPING DISCOUNT</th>
+            <td style="width: 50%; text-align: right;">₦ 0</td>
+        </tr>
+        <tr>
+            <th style="width: 50%;">DISCOUNT</th>
+            <td style="width: 50%; text-align: right;">₦ 0</td>
+        </tr>
+        <tr>
+            <th style="width: 50%;">TOTAL</th>
+            <td style="width: 50%; text-align: right;">₦ 4,510</td> 
+        </tr>
+        <tr>
+            <th style="width: 50%;">PAYMENT METHOD</th>
+            <td style="width: 50%; text-align: right;">Prepaid</td> 
+        </tr>
+    </table>
+    <br>
+    <p>If you would like to know more, please visit our <a style="color: blue;" href="#"> Help Center</a></p>
+    <p>Please don’t forget to thank your Jumia delivery agent, who is keeping you safe at home!
+        You can also encourage them through our <a style="color: blue;" href="#">Facebook Page</a> using the #jumiaheroes flag.
+        Stay safe & stay healthy.
+    </p>
+    <br>
+    <div class="banner">
+        <div class="bannerleft">
+            <!-- <div style="background-color: rgba(255, 69, 0, 0.6); padding: 20px; clip-path: polygon(5% 20%, 25% 80%, 95% 80%, 75% 20%);"> -->
+            <ul style="line-height: 40px;">
+                <li class="bannerlist"><span style="color: #fff;" class="far fa-check-circle"></span>    Safe</li>
+                <li class="bannerlist"><span style="color: #fff;" class="far fa-check-circle"></span>    Reliable</li>
+                <li class="bannerlist"><span style="color: #fff;" class="far fa-check-circle"></span>    Fast Delivery</li>
+            </ul>
+        </div>
+        <div class="bannerright">
+            <mark> OUR SAFETY PROCEDURES </mark> 
+            <br>
+            <br>
+            <table class="bannertable">
+                <tr>
+                    <td class="bannertabledata"><img src="./logo.png" alt="logo" width="50%"></td>
+                    <td class="bannertabledata"><img src="./logo.png" alt="logo" width="50%"></td> 
+                    <td class="bannertabledata"><img src="./logo.png" alt="logo" width="50%"></td>
+                </tr>
+                <tr>
+                    <td class="bannertabledata">Contactless Payment Option</td>
+                    <td class="bannertabledata">Monitored Hygiene</td>
+                    <td class="bannertabledata">Sanitized Facilities</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <br>
+    <p>Happy Shopping!</p>
+    <p>Warm Regards,</p>
+    <img src="./My Signature.png" alt="signature" width="10%">
+    <p>Market Centra Team</p>
+    <p><strong>Got any questions?</strong></p>
+    <ul>
+        <li class="list">Have a look at our <a style="text-decoration: none; color: blue;" href="#">Help Center</a> page</li>
+        <li class="list">Learn how to use Jumiapay and withdraw from your Jumiapay account. Click <a style="color: blue;" href="#">here</a></li>
+    </ul>
+    <div style="height: 20px; width: 100%; background-color: navy;">
+
+    </div>
+</body>
+</html>
